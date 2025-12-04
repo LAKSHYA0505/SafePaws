@@ -78,9 +78,8 @@ npm install
 ## 3️⃣ Create a `.env.local` file inside `/frontend`
 
 ```
-NEXT_PUBLIC_BACKEND_URL=http://localhost:5000
-NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=your_cloud_name
-NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET=your_upload_preset
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=
+NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET=safepaws_upload
 ```
 
 ## 4️⃣ Run the frontend
