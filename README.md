@@ -36,6 +36,7 @@ SafePaws/
 │   ├── routes/
 │   ├── models/
 │   ├── controllers/
+|   ├── services/ 
 │   ├── config/
 │   └── package.json
 │
@@ -73,6 +74,8 @@ cd SafePaws
 ```bash
 cd frontend
 npm install
+pnpm install leaflet leaflet.markercluster
+pnpm install lucide-react  # For icons
 ```
 
 ## 3️⃣ Create a `.env.local` file inside `/frontend`
@@ -116,7 +119,7 @@ CLOUDINARY_API_SECRET=your_api_secret
 ## 7️⃣ Start the backend server
 
 ```bash
-npm start
+npx nodemon server.js
 ```
 
 Backend will run at:
@@ -144,7 +147,7 @@ So keep **both servers running**.
 3. Upload dog image → auto-uploads to Cloudinary  
 4. Submit → API saves report to MongoDB  
 5. Success message appears  
-
+6. You can also view that image in `/map`
 ---
 
 # 👥 Contributing (For teammates)
