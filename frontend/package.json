@@ -4,10 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && node scripts/copy-leaflet-images.js",
+    "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "postinstall": "node scripts/copy-leaflet-images.js"
   },
   "dependencies": {
     "leaflet": "^1.9.4",
