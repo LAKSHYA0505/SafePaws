@@ -14,8 +14,7 @@ const reportSchema = new mongoose.Schema({
   dogCount: {
     type: Number,
     default: 1,
-    min: 1,
-    max: 50
+    min: 1
   },
   urgency: {
     type: String,
@@ -31,6 +30,14 @@ const reportSchema = new mongoose.Schema({
     type: String,
     default: ''
   },
+  imagePublicId: {
+    type: String,
+    default: ''
+  },
+  coordinates: {
+    lat: { type: Number },
+    lng: { type: Number }
+  },
   createdAt: {
     type: Date,
     default: Date.now
@@ -41,7 +48,6 @@ const reportSchema = new mongoose.Schema({
   }
 });
 
-// Update updatedAt before saving - SIMPLIFIED VERSION
 reportSchema.pre('save', function() {
   this.updatedAt = new Date();
 });
