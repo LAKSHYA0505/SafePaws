@@ -96,10 +96,10 @@ export default function Home() {
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold text-gray-800 mb-12">Making a Difference Together</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-              <div><div className="text-3xl font-bold text-red-600 mb-2">500+</div><div className="text-gray-600 font-medium">Reports Resolved</div></div>
-              <div><div className="text-3xl font-bold text-blue-600 mb-2">50+</div><div className="text-gray-600 font-medium">NGO Partners</div></div>
-              <div><div className="text-3xl font-bold text-green-600 mb-2">2K+</div><div className="text-gray-600 font-medium">Lives Impacted</div></div>
-              <div><div className="text-3xl font-bold text-purple-600 mb-2">100+</div><div className="text-gray-600 font-medium">Active Volunteers</div></div>
+              <div><div className="text-2xl font-bold text-red-600 mb-2">Reports Resolved</div><div className="text-gray-600 font-medium">coming soon</div></div>
+              <div><div className="text-2xl font-bold text-blue-600 mb-2">NGO    Partners</div><div className="text-gray-600 font-medium">coming soon</div></div>
+              <div><div className="text-2xl font-bold text-green-600 mb-2">Lives Impacted</div><div className="text-gray-600 font-medium">coming soon</div></div>
+              <div><div className="text-2xl font-bold text-purple-600 mb-2">Active Volunteers</div><div className="text-gray-600 font-medium">coming soon</div></div>
             </div>
           </div>
         </section>
